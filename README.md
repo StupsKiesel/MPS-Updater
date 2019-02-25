@@ -4,7 +4,7 @@ It can also be used for creating a new instalation.
 
 Instalation:
 1. Copy "MPS_updater.bat" and the "updater.cfg" in the folder where the "ManiaPlanetServer.exe" is located
-Instalation finished !
+2. Instalation finished !
 
 Configuration:
 1. Open the "updater.cfg" file (Use ONLY Notepad++)
