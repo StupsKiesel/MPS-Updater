@@ -1,14 +1,17 @@
 # MPS-Updater
 Updates MPS files and Titlepack.
 It can also be used for creating a new instalation.
-
+ 
+ 
 Instalation:
 1. Copy "MPS_updater.bat" and the "updater.cfg" in the folder where the "ManiaPlanetServer.exe" is located
 2. Instalation finished !
 
+
 Configuration:
 1. Open the "updater.cfg" file (Use ONLY Notepad++)
 2. The config is pre configurated for Stadium TitlePack
+
 
 For Example: 
 If you want to update or to download a other TitlePack you only have to 
