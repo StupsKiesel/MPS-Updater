@@ -35,3 +35,6 @@ rem download TitlePack
 bitsadmin.exe /transfer "Download Latest TitlePack" %Link_TitlePack%%Title_Name% %mypath%\Packs\%Title_Name%
 
 
+rem REMOVE THIS IF YOU WANT TO CLOSE MPS_UPDATER AUTOMATICLY !!!
+echo Update Finished !
+pause
