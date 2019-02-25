@@ -47,3 +47,7 @@ Part 2:Some-non-Public-Title@non-public.Title.Pack.gbx
 
 Place "Part 1" in (line 5) and "Part 2" in (line 8)
 
+HOW TO USE:
+1. Shutdown your Server
+2. Execute "MPS_updater.bat"
+
