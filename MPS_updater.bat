@@ -20,8 +20,8 @@ rem import config
 rem downloading MPS
 bitsadmin.exe /transfer "Download Latest ManiaPlanetServer.zip" %Link_MPS% %mypath%\ManiaplanetServer_Latest.zip
 
-rem extrackt ManiaPlanetServer_Latest.zip
-powershell.exe -nologo -noprofile -command "& { $shell = New-Object -COM Shell.Application; $target = $shell.NameSpace('%mypath%'); $zip = $shell.NameSpace('%mypath%\ManiaplanetServer_Latest.zip'); $target.CopyHere($zip.Items(), 16); }"
+rem extrackt ManiaPlanetServer_Latest.zip Command for PowerShell 5.1
+powershell.exe Expand-Archive -Path %mypath%\ManiaplanetServer_Latest.zip  -DestinationPath %mypath% -Force
 
 rem check if folder Packs exists
 :again
@@ -38,3 +38,4 @@ bitsadmin.exe /transfer "Download Latest TitlePack" %Link_TitlePack%%Title_Name%
 rem REMOVE THIS IF YOU WANT TO CLOSE MPS_UPDATER AUTOMATICLY !!!
 echo Update Finished !
 pause
+exit
