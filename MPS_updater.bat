@@ -19,6 +19,7 @@ rem import config
 
 rem downloading MPS
 bitsadmin.exe /transfer "Download Latest ManiaPlanetServer.zip" /PRIORITY HIGH %Link_MPS% %mypath%\ManiaplanetServer_Latest.zip
+timeout /t 3 /nobreak
 
 rem extrackt ManiaPlanetServer_Latest.zip Command for PowerShell 5.1
 powershell.exe Expand-Archive -Path %mypath%\ManiaplanetServer_Latest.zip  -DestinationPath %mypath% -Force
