@@ -1,5 +1,5 @@
 @echo off
-mode con:cols=80 lines=10
+mode con:cols=125 lines=7
 title Server Updater
 
 rem set homepath 
