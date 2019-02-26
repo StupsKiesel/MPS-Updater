@@ -16,7 +16,7 @@ rem import config
   set /p line7=
   set /p Title_Name=
 )
-pause
+
 rem downloading MPS
 bitsadmin.exe /transfer "Download Latest ManiaPlanetServer.zip" %Link_MPS% %mypath%\ManiaplanetServer_Latest.zip
 
