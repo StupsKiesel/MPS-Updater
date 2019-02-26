@@ -1,7 +1,8 @@
 # MPS-Updater
 Updates MPS files and Titlepack.
 It can also be used for creating a new instalation.
- 
+IT ONLY WORKS FOR "C:\root_folder\some_path\script.bat"
+NOT FOR "C:\root folder\some path\script.bat"
  
 Instalation:
 1. Copy "MPS_updater.bat" and the "updater.cfg" in the folder where the "ManiaPlanetServer.exe" is located
