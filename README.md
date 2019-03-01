@@ -50,9 +50,10 @@ Place "Part 1" in (line 5) and "Part 2" in (line 8)
 
 HOW TO USE:
 1. Shutdown your Server
-2. Execute "MPS_updater.bat"
-3. Wait till you see "Update Finished !"
-4. Press Any Key to exit the Updater
+2. Make a backup before using the updater!
+3. Execute "MPS_updater.bat"
+4. Wait till you see "Update Finished !"
+5. Press Any Key to exit the Updater
 
 You want the updater to close automaticly after finishing update ?
 No problem, delete the last line in "MPS_updater.bat"
